@@ -4,23 +4,58 @@
 #### Headline 4
 ##### Headline 5
 ###### Headline 6
-###### *Italicized*
-###### **Bold**
+  
+***
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+*Italicized text*  
+**Bold text**  
+***Bold and italized text***  
+  
+***
+ 
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    *  Indented item
+4. Fourth item
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+***
+  
+Unordered list can either use asterisks, minus, or plus.
+* One item
+* Another item
+    * Indented item  
+   
+\* Without the backslash, this would be a bullet in an unordered list.  
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+***
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-Regardless, unordered lists will look the same.
+> This is  
+> A  
+> Blockquote!  
+
+* This is the first list item.
+* Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+* And here's the third list item.
+
+***
+
+    This is a codeblock.
+
+1. Item 1  
+2. Item 2  
+
+        This is a codeblock within a list.  
+
+3. Item 3  
+
+This word is denoted as code: `word`
+
+***
+
+This is a link to the front page of [GitHub](https://github.com/ "This is the link.").  
+This is a link to an example e-mail: <fake@example.com>
